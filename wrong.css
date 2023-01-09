@@ -1,0 +1,161 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.banner {
+  position: relative;
+  text-align: right;
+  color: white;
+}
+.main-continer{
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  padding: 20px 100px;
+}
+.mid-part{
+  position: center;
+  width: 50%;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -100%);
+  text-align: right;
+  color: whitesmoke ;
+}
+
+.middle-part {
+  display: flex ;
+  align-items: right ;
+  width:100% ;
+  height: 100 vh;
+  margin: 0px;
+  
+}
+ul{ list-style-type: styl ;}
+
+.section{ 
+  margin-top: 130px;
+  text-align: center;
+   }
+
+
+.skill-continer{
+  display: flex;
+
+ }
+
+
+
+
+
+
+.skillParent{
+  margin-top: 50px;
+  padding-top: 20px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  background: #f4f4f4;
+}
+
+
+.skillChild{
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background:#f2f2f2;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+
+ .skill-title{
+font-weight: 700px;
+font-size: 20px ;
+padding-bottom: 20px;
+ }  
+
+
+.quoteParent{
+  display: flex;
+  justify-content: center;
+}
+
+.quoteChild{
+  background-image:
+  linear-gradient(to left, rgba(159, 164, 196, 0.82), rgb(16, 5, 137)),
+  url('images/watch.png');
+  width: 80%;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  padding: 50px 100px;
+  border-radius: 20px;
+  
+}
+
+.gradiant{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 10px;
+  width: 30; 
+  margin-top: 10%;
+ 
+  text-align: left;
+}
+.button-call{
+  background-color: #f2f2f2;
+  padding: 10px;
+  color: rgb(75, 75, 137) ;
+  font-weight:bold   ;
+
+}
+
+
+
+
+.footerParent{
+  display: flex;
+  /* padding: 40px 100px ; */
+  justify-content: center;
+}
+
+
+
+
+
+
+footer{
+  margin-top: 50px;
+  padding: 40px 100px;
+  background-color: black;
+}
+footer h1{
+  margin-top: 20px;
+  color: rgb(187, 185, 185);
+}
+.footercontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerul{
+  display: flex;
+  gap: 20px;
+}
+form input{
+  padding: 10px;
+  width: 300px;
+}
+
+
